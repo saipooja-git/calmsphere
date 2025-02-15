@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346513827775",
+    "project_id": "camsphere-d1e38",
+    "storage_bucket": "camsphere-d1e38.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346513827775:android:60992213e002272bf6e30a",
+        "android_client_info": {
+          "package_name": "com.example.camsphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9FMStesLMy7pmU_631CS6TOQY4E3qMAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

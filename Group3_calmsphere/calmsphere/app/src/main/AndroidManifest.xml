@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permission for internet access -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/calmsphere_icon_full_cover_xxxhdpi"
+        android:roundIcon="@mipmap/calmsphere_icon_full_cover_xxxhdpi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calmsphere"
+        tools:targetApi="31">
+
+
+    <!-- Main entry point -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other activities -->
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".RegisterActivity" android:exported="true" />
+        <activity android:name=".DashboardActivity" android:exported="true" />
+        <activity android:name=".CategoryActivity" android:exported="true" />
+        <activity android:name=".MusicActivity" android:exported="true" />
+        <activity android:name=".ViewProfileActivity" android:exported="true" />
+        <activity android:name=".StreakTrackerActivity" android:exported="true"/>
+        <activity android:name=".BreathingExerciseActivity" android:exported="true"/>
+<!--        <activity android:name=".BreathingSettingsActivity" android:exported="true"/>-->
+    </application>
+
+</manifest>
